@@ -1,8 +1,23 @@
 repos:
 - repo: https://github.com/pre-commit/pre-commit-hooks
-  rev: v4.0.1
+  rev: v4.5.0
   hooks:
-    - id: trailing-whitespace
-    - id: end-of-file-fixer
-    - id: check-yaml
+    - id: check-ast
+    - id: check-case-conflict
+    - id: check-executables-have-shebangs
     - id: check-json
+    - id: check-merge-conflict
+    - id: check-shebang-scripts-are-executable
+    - id: check-xml
+    - id: check-yaml
+    - id: detect-private-key
+    - id: double-quote-string-fixer
+    - id: end-of-file-fixer
+    - id: file-contents-sorter
+    - id: fix-byte-order-marker
+    - id: fix-encoding-pragma
+    - id: name-tests-test
+    - id: pretty-format-json
+    - id: requirements-txt-fixer
+    - id: sort-simple-yaml
+    - id: trailing-whitespace
