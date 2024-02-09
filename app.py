@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# just a hello world
-print('Hello, World!')
+"""
+Just a hello world
+"""
+print("Hello, World!")
