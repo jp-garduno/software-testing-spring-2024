@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 """
- White-box unit testing examples.
+ White-box code examples.
 """
 import re
 
@@ -13,15 +13,6 @@ def is_even(num):
     return num % 2 == 0
 
 
-print("Test is_even function")
-
-# Test with an even number
-assert is_even(0) is True
-
-# Test with an odd number
-assert is_even(5) is False
-
-
 def divide(a, b):
     """
     Simple division function.
@@ -30,15 +21,6 @@ def divide(a, b):
     if b != 0:
         result = a / b
     return result
-
-
-print("Test divide function")
-
-# B is not 0 (case 1)
-assert divide(10, 2) == 5
-
-# B is 0
-assert divide(10, 0) == 0
 
 
 def get_grade(score):
@@ -56,13 +38,6 @@ def get_grade(score):
     return grade
 
 
-print("Test get_grade function")
-assert get_grade(95) == "A"
-assert get_grade(85) == "B"
-assert get_grade(75) == "C"
-assert get_grade(65) == "F"
-
-
 def is_triangle(a, b, c):
     """
     Determines if 3 numbers can form a triangle.
@@ -71,21 +46,6 @@ def is_triangle(a, b, c):
         return "Yes, it's a triangle!"
 
     return "No, it's not a triangle."
-
-
-print("Test is_triangle function")
-
-# All conditions are true (different numbers)
-assert is_triangle(3, 4, 5) == "Yes, it's a triangle!"
-
-# A + B is not greater than C
-assert is_triangle(3, 4, 10) == "No, it's not a triangle."
-
-# A + C is not greater than B
-assert is_triangle(2, 3, 1) == "No, it's not a triangle."
-
-# B + C is not greater than A
-assert is_triangle(2, 1, 1) == "No, it's not a triangle."
 
 
 # 1
