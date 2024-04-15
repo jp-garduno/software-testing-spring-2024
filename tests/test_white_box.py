@@ -84,7 +84,3 @@ class TestWhiteBox(unittest.TestCase):
         Checks the three inputs can't form a triangle when A is greater or equal than B + C.
         """
         self.assertEqual(is_triangle(2, 1, 1), "No, it's not a triangle.")
-
-
-if __name__ == "__main__":
-    unittest.main()
