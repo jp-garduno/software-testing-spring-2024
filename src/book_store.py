@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 """
- Book store example.
+Book store example.
 """
 
 
