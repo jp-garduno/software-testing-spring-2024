@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 """
- White-box unit testing examples.
+White-box unit testing examples.
 """
 import unittest
 

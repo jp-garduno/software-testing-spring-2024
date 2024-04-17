@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 """
- Login example.
+Login example.
 """
 import hashlib
 import json

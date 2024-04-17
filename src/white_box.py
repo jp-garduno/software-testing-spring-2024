@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 """
- White-box code examples.
+White-box code examples.
 """
 import re
 
