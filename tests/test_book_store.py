@@ -15,7 +15,7 @@ class TestBook(unittest.TestCase):
 
     def test_book_init(self):
         """
-        Checks the book properties.
+        Checks the book properties
         """
         title = "title"
         author = "author"
