@@ -6,4 +6,4 @@ Feature: Google Search
   Scenario: Searching for "Hello, world!" on Google
     Given I am on the Google homepage
     When I search for "Hello, world!"
-    Then I should see the search results
+    Then the title should start with "Hello, world!"
